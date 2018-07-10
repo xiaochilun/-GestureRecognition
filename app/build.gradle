@@ -21,4 +21,6 @@ android {
 dependencies {
     implementation 'com.google.android.gms:play-services:12.0.1'
     implementation project(':GestureMonkey')
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
 }

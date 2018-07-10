@@ -1,4 +1,4 @@
-package com.tiger.gesturerecognition;
+package com.tiger.gesturerecognition.fragment;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.tiger.gesturerecognition.constant.ExporterConstants;
+import com.tiger.gesturerecognition.R;
 
 import thm.eu.gesturemonkey.GestureMonkey;
 

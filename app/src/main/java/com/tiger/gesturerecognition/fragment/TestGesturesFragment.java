@@ -1,4 +1,4 @@
-package com.tiger.gesturerecognition;
+package com.tiger.gesturerecognition.fragment;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -36,6 +36,9 @@ import com.google.android.gms.wearable.DataEventBuffer;
 import com.google.android.gms.wearable.DataMap;
 import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.Wearable;
+import com.tiger.gesturerecognition.entity.Device;
+import com.tiger.gesturerecognition.R;
+import com.tiger.gesturerecognition.constant.WearableConstants;
 
 import java.util.ArrayList;
 

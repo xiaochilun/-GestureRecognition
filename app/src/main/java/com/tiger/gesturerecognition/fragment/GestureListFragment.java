@@ -1,4 +1,4 @@
-package com.tiger.gesturerecognition;
+package com.tiger.gesturerecognition.fragment;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -17,6 +17,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.tiger.gesturerecognition.adapter.GestureListAdapter;
+import com.tiger.gesturerecognition.R;
 
 import java.util.ArrayList;
 

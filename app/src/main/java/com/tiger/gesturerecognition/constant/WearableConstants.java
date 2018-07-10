@@ -1,4 +1,4 @@
-package com.tiger.gesturerecognition;
+package com.tiger.gesturerecognition.constant;
 
 /**
  * Created by Tobi on 16.01.2015.

@@ -1,4 +1,4 @@
-package com.tiger.gesturerecognition;
+package com.tiger.gesturerecognition.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+
+import com.tiger.gesturerecognition.R;
 
 import java.util.ArrayList;
 
@@ -22,7 +24,7 @@ public class GestureListAdapter extends ArrayAdapter<Gesture> {
     //keeps track which CheckBox is in which state (important due to the view recycling)
     private boolean[] selectionList;
 
-    static class ViewHolder {
+    public static class ViewHolder {
         public TextView tvCaption;
         public CheckBox chkEdit;
     }

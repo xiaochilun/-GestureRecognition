@@ -1,4 +1,4 @@
-package com.tiger.gesturerecognition;
+package com.tiger.gesturerecognition.fragment;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+
+import com.tiger.gesturerecognition.constant.ExporterConstants;
+import com.tiger.gesturerecognition.R;
 
 import java.io.File;
 import java.util.ArrayList;

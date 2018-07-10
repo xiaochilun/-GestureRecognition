@@ -1,4 +1,4 @@
-package com.tiger.gesturerecognition;
+package com.tiger.gesturerecognition.activity;
 
 import android.app.Activity;
 import android.app.FragmentTransaction;
@@ -7,6 +7,9 @@ import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.tiger.gesturerecognition.fragment.GestureListFragment;
+import com.tiger.gesturerecognition.R;
 
 import thm.eu.gesturemonkey.GestureMonkey;
 import thm.eu.gesturemonkey.filter.DirectionEquivalenceFilter;
